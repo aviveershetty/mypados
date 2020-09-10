@@ -1,0 +1,197 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.body {
+    font-family: 'Quicksand';
+}
+.button 
+{
+  background-color: #4B0082; 
+  border: none;
+  border-radius: 10cm;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover 
+{
+    background-color: #9370DB; 
+}
+/*--Navigation--*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #077bff!important;
+}
+.navbar
+{
+    background-color: #fff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*--Home--*/
+#home{
+    text-align: center;
+    padding: 50px;
+    background-color: #e2c5e2;
+}
+#home h1{
+    font-size: 42px;
+    font-weight: 600;
+    font-family: 'Quicksand';
+}
+#home h5{
+    color: rgb(131, 124, 124);
+    font-family: 'Quicksand';
+}
+#about
+{   
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Quicksand';
+}
+#about h1{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Quicksand';
+}
+#about btn 
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand';
+}
+.about-content
+{
+    padding-top: 20px;
+}
+/*--Services--*/
+#services
+{
+    background-color: #555;
+    color: #efefef!important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#servies h1
+{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+    font-family: 'Quicksand';
+}
+#servies h1::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin:20px auto 5px;
+}
+.services 
+{
+    margin-top: 40px;
+}
+.icon 
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+}
+#services p 
+{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;  
+    font-family: 'Quicksand';
+}
+.services .col-md-3:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+}
+/*--Download--*/
+#download
+{
+    text-align: center;
+    padding: 50px;
+    font-size: 38px;
+    font-family: 'Quicksand';
+}
+
+#testimony
+{
+    text-align: center;
+    padding: 100px;
+    font-size: 38px;
+    background-color: #DDA0DD;
+    font-style: italic;
+    font-family: 'Quicksand';
+}
+/*--Footer--*/
+#footer
+{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Quicksand';
+    font-style: italic;
+}
+.fa-heart-o
+{
+    margin: 3px;
+    color: red;
+}
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel-indicators li {
+    background-color: rgba(70, 70, 70, 0.25);
+    padding: 2px;
+    border-radius: 10cm;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #444;
+  }
