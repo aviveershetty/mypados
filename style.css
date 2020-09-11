@@ -16,13 +16,13 @@
 .img-engage {
     display: flex;
     width: 35vw;
-    height: 25vh;
+    height: 23vh;
     align-self: center;
 }
 .img-discover {
     display: flex;
     width: 35vw;
-    height: 25vh;
+    height: 23vh;
     align-self: center;
 }
 .img-logo {
@@ -100,8 +100,8 @@
     padding: 30px;
 }
 #home h1{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: bolder;
     font-family: 'Quicksand';
 }
 #home h5{
@@ -197,7 +197,7 @@
 
 #testimony h5{
     font-family: 'Quicksand';
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
 }
 /*--Footer--*/
