@@ -204,6 +204,10 @@
     font-size: 12px;
     text-align: center;
 }
+#download p{
+    font-family: 'Quicksand';
+    font-size: 10px;
+}
 #testimony
 {
     text-align: center;
