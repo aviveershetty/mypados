@@ -15,21 +15,19 @@
 }
 .img-engage {
     display: flex;
-    width: 27vw;
-    height: 30vw;
+    width: 35vw;
+    height: 25vh;
     align-self: center;
 }
 .img-discover {
     display: flex;
-    width: 27vw;
-    height: 30vw;
+    width: 35vw;
+    height: 25vh;
     align-self: center;
 }
 .img-logo {
-    display: flex;
     width: 15vw;
-    height: 20vw;
-    align-self: center;
+    height: 15vw;
 }
 .body {
     font-family: 'Quicksand';
@@ -103,7 +101,7 @@
 }
 #home h1{
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 600;
     font-family: 'Quicksand';
 }
 #home h5{
@@ -114,13 +112,14 @@
 {   
     width: 100%;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
     background-color: #e2c5e2;
 }
 #about h5{
     font-family: 'Quicksand';
-    font-size: 2.5vw;
+    font-size: 12px;
     text-align: center;
+    font-weight: bold;
 }
 
 /*--Services--*/
@@ -176,30 +175,29 @@
 {   
     width: 100%;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
 }
 #download h2{
     font-family: 'Quicksand';
-    font-size: 3.0vw;
+    font-size: 16px;
     text-align: center;
 }
 #download h5{
     font-family: 'Quicksand';
-    font-size: 2.5vw;
+    font-size: 12px;
     text-align: center;
 }
 #testimony
 {
     text-align: center;
-    padding: 50px;
-    background-color: #DDA0DD;
-    font-style: italic;
-    font-family: 'Quicksand';
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 #testimony h5{
     font-family: 'Quicksand';
-    font-size: 2.5vw;
+    font-size: 16px;
     text-align: center;
 }
 /*--Footer--*/
