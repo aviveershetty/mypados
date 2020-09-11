@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+.terms #container{
+    padding: 100px;
+}
 .wrapper {
     width: 100%;
 }
@@ -117,6 +120,10 @@
 #home h5{
     font-family: 'Quicksand';
     font-size: 16px;
+}
+#home p{
+    font-family: 'Quicksand';
+    font-size: 10px;
 }
 #about
 {   
