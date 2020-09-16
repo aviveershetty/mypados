@@ -76,8 +76,11 @@
     z-index: 10;
 }
 #nav-bar Text{
-    color: #311B92; 
-    font-weight: bolder;
+    align-self: center;
+    justify-self: center;
+    color: black;
+    font-size: 22; 
+    font-weight: bold;
     font-family: 'Quicksand';
 }
 .navbar-brand img
