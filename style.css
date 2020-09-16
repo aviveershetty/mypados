@@ -38,7 +38,7 @@
 }
 .button 
 {
-  background-color: #4B0082; 
+  background-color: #311B92; 
   border: none;
   border-radius: 10cm;
   color: white;
@@ -74,6 +74,11 @@
     position: sticky;
     top: 0;
     z-index: 10;
+}
+#nav-bar Text{
+    color: #311B92; 
+    font-weight: bolder;
+    font-family: 'Quicksand';
 }
 .navbar-brand img
 {
@@ -114,7 +119,7 @@
 }
 #home h1{
     font-size: 24px;
-    font-weight: bolder;
+    font-weight: bold;
     font-family: 'Quicksand';
 }
 #home h5{
